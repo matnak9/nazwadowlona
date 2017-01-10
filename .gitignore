@@ -1,0 +1,17 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Nov  6 22:44:23 2016
+
+@author: Mateusz
+"""
+numbers =[0,1] 
+ 
+
+def fib(numbers):
+    new = 0
+    for i in range(50):                 
+        new = numbers[-1] + numbers[-2]  
+        numbers.append(new)              
+        print(new)                     
+
+fib(numbers)
